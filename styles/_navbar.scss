@@ -38,8 +38,8 @@
     cursor: pointer;
     position: relative;
     z-index: 99999;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -49,8 +49,8 @@
     mix-blend-mode: m;
 
     &-span {
-      width: 15px;
-      height: 2px;
+      width: 20px;
+      height: 3px;
       background-color: #29d;
       margin: 2px 0;
       isolation: isolate;
@@ -107,10 +107,10 @@
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(6px);
+    transform: translateY(7px);
   }
   to {
-    transform: translateY(6px) rotate(-45deg);
+    transform: translateY(7px) rotate(-45deg);
   }
 }
 @keyframes up {
@@ -118,10 +118,10 @@
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-6px);
+    transform: translateY(-7px);
   }
   to {
-    transform: translateY(-6px) rotate(45deg);
+    transform: translateY(-7px) rotate(45deg);
   }
 }
 @keyframes shorten {
