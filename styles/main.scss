@@ -1,0 +1,29 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./shared/fonts";
+@import "./shared/_navbar";
+@import "./shared//nprogress";
+@import "./shared/index";
+html,
+body {
+  font-family: "Montserrat", "Helvetica", sans-serif !important;
+}
+html {
+}
+body {
+  position: relative;
+
+  background-image: url("../public/images/conf.svg");
+  background-size: cover;
+}
+.absolute {
+  position: absolute;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
