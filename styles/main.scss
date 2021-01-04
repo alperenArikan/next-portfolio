@@ -1,8 +1,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./shared/fonts";
-@import "./shared/_navbar";
-@import "./shared//nprogress";
-@import "./shared/index";
+@import "./_fonts";
+@import "./_navbar";
+@import "./_nprogress";
+@import "./_index";
 html,
 body {
   font-family: "Montserrat", "Helvetica", sans-serif !important;
